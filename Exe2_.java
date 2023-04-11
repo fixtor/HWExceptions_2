@@ -11,7 +11,6 @@ public class Exe2_ {
 			//Так как у нас две рабочие переменные, массив и переменная d, добавим перед делением верный ли размер массива
 		} catch (ArithmeticException e) {
 			System.out.println("Catching exception: " + e);
-
 		}
 	}
 }
