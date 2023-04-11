@@ -6,8 +6,8 @@ public class Exe3_ {
             int b = 3;
             System.out.println(a / b);
             printSum(null, 234);
-            int[] abc = { 1, 2 };
-            abc[10] = 9;
+            int[] abc = { 1, 2 }; //Возможно массив будет использоваться где-то еще
+            abc[0] = 9;
         } catch (IndexOutOfBoundsException ex) { // Эти исключения переносим по порядку перед супер-классом
             System.out.println("Массив выходит за пределы своего размера!");
         } catch (NullPointerException ex) { //Если в метод передать
